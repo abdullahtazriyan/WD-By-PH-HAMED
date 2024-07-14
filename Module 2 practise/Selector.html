@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selector</title>
+    <style>
+        *{
+            margin: 20px;
+        }
+        p{
+            color: red;
+        }
+        #first{
+            background-color: aqua;
+        }
+        .tt{
+            text-align: center;
+        }
+       .Bold{
+        font-weight: bolder;
+       }
+       #first, .Bold{
+        border-radius: 20px;
+        font-weight: 1000;
+       }
+       .Bold, #first{
+        border-radius: 20px;
+        font-weight: 1000;
+       }
+       input[type="password"]{
+        color: red;
+       }
+       .span{
+        color: blue;
+       }
+       .H{
+        background-color: azure;
+        width: 30%;
+        text-align: center;
+        margin-left: 30px;
+        /* justify-content: space-between; */
+       }
+    </style>
+</head>
+<body>
+    <h3>Explore Mixed selector</h3>
+    <p id="first">My first line css</p>
+    <p class="tt Bold">My sceond line css</p>
+    <p class="tt">My tirth line css</p>
+    <p class="Bold">My forth line css</p>
+    <p>My <span class="span">fifth</span> line css</p>
+<ol>
+    <li>Element selector</li>
+    <li>Id selector</li>
+    <li>Class selector</li>
+    <li>Universal selector</li>
+</ol>
+<form action="">
+    <input type="text">
+    <input type="password">
+</form>
+<div class="H">
+    <h2>Css end here</h2>
+    <h4>Last line here</h4>
+</div>
+</body>
+</html>

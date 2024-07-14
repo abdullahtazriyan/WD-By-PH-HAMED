@@ -1,0 +1,44 @@
+*{
+    margin: 5px;
+}
+.header{
+    height: 300px;
+    text-align: center;
+    background-image: url(../Midia/Image/1.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-size: auto; */
+    /* background-position: left; */
+    /* background-position: right; */
+}
+div{
+    color: red;
+    margin-left: 100px;
+    margin-right: 99px;    
+}
+#quis{
+    color: red;
+    border: 1px solid red;
+    /* display: inline; */
+    height: 300px;
+    /* display: block; */
+}
+.first{
+    border: 10px solid black;
+    padding: 5px;
+    margin-top: 50px;
+}
+#second{
+    border: 6px solid blueviolet;
+    box-shadow: 8px 8px 20px salmon;
+    text-align: center;
+}
+.third{
+    display: none;
+}
+.forth{
+    border: 1px solid darkblue;
+}
